@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id='txt' onClick='test()'>20</p>
+
+<script>
+    function test() {
+        x = document.getElementById('txt');
+        const n = x.innerHTML;
+        x.innerHTML = n(n / 2);
+    }
+</script>
+</body>
+</html>
+//outputnya 5
